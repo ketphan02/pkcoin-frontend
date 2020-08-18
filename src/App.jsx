@@ -7,7 +7,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Home from './Routes/Home';
+import Home from './Routes/Home/Home';
 
 function App() {
   return (

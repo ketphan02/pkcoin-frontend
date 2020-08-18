@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -7,7 +6,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Home from './Routes/Home/Home';
+import Home from '../Home/Home';
 
 function App() {
   return (

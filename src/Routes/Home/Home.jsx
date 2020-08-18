@@ -24,18 +24,13 @@ function Home() {
         <p> Here are some transactions... </p>
 
         <div className="card-container">
-
-          <card className="border-prime">
+          <div className="card" id='0'>
               <card-body>
-
                 <h3> Block 1 </h3> (Genesis block)
-
               </card-body>
               <list-items>
-
                 Previous hash: {PrevHash}<br></br>
                 Current hash: {CurHash}
-
               </list-items>
               <list-items>
                 Key: {key}
@@ -43,7 +38,23 @@ function Home() {
               <list-items-bruh>
                 Timestamp: {time}
               </list-items-bruh>
-          </card>
+          </div>
+
+          <div className="card" id='1'>
+              <card-body>
+                <h3> Block 2 </h3>
+              </card-body>
+              <list-items>
+                Previous hash: {PrevHash}<br></br>
+                Current hash: {CurHash}
+              </list-items>
+              <list-items>
+                Key: {key}
+              </list-items>
+              <list-items-bruh>
+                Timestamp: {time}
+              </list-items-bruh>
+          </div>
 
         </div>
 
